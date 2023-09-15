@@ -5,7 +5,8 @@
   "homepage": "https://Nastasiia03.github.io/online-store",
   "scripts": {
     "start": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /online-store/"
+    "build": "parcel build src/*.html --public-url /online-store/",
+    "watch": "npx tailwindcss -i ./src/input.css -o ./src/css/output.css --watch"
   },
   "repository": {
     "type": "git",
