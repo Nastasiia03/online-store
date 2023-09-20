@@ -15,6 +15,7 @@ module.exports = {
       'background': '#FCF7E6',
       black: colors.black,
       white: colors.white,
+      stone: colors.stone
     }
   },
   plugins: [],
