@@ -9,8 +9,16 @@
   </head>
   <body class="bg-background">
     <div class="container mx-auto max-w-screen-2xl">
-      <header class="py-12 pl-15 border-b border-black mb-24">
-        <h1 class="text-3xl font-medium">VooDoo Test</h1>
+      <header class="py-12 pl-15 border-b border-black mb-24 flex">
+        <svg width="45" height="45">
+          <use href="./symbol-defs.svg#icon-Logomark"></use>
+        </svg>
+        <svg width="193" height="98">
+          <use href="./symbol-defs.svg#icon-VooDoo-Test"></use>
+        </svg>
+        <svg width="24" height="24">
+          <use href="./symbol-defs.svg#icon-shopping-cart-1-1"></use>
+        </svg>
         <button
           class="bg-black px-3 rounded text-white text-xl font-bold h-10 w-28 hover:bg-stone-700"
         >
@@ -23,7 +31,7 @@
             <p>ALPHA</p>
             <p>Important info regarding our service</p>
           </div>
-          <div class="cards"></div>
+          <div class="cards flex flex-wrap gap-x-6 gap-y-12"></div>
         </section>
       </main>
     </div>
